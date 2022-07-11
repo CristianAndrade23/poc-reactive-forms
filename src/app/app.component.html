@@ -1,159 +1,161 @@
-<div class="container-load-order">
-  <div class="content-left">
-    <div class="title">Detalhes do pedido</div>
-    <div class="col-group">
-      <div class="col-info-1">
-        <p>Número do pedido</p>
-        <span class="result">12345</span>
+<form [formGroup]="form" (ngSubmit)="submit()">
+  <div class="container-load-order">
+    <div class="content-left">
+      <div class="title">Detalhes do pedido</div>
+      <div class="col-group">
+        <div class="col-info-1">
+          <p>Número do pedido</p>
+          <span class="result">12345</span>
+        </div>
+        <div class="col-info-1">
+          <p>Situação</p>
+          <span class="result">Cancelado</span>
+        </div>
+        <div class="col-info-1">
+          <p>Canal de venda</p>
+          <span class="result">Site</span>
+        </div>
+        <div class="col-info-1">
+          <p>Filial</p>
+          <span class="result">40</span>
+        </div>
+        <div class="col-info-1">
+          <p>Número do carrinho</p>
+          <span class="result">12345678</span>
+        </div>
+        <div class="col-info-1">
+          <p>Número pedido CD</p>
+          <span class="result">1234</span>
+        </div>
       </div>
-      <div class="col-info-1">
-        <p>Situação</p>
-        <span class="result">Cancelado</span>
-      </div>
-      <div class="col-info-1">
-        <p>Canal de venda</p>
-        <span class="result">Site</span>
-      </div>
-      <div class="col-info-1">
-        <p>Filial</p>
-        <span class="result">40</span>
-      </div>
-      <div class="col-info-1">
-        <p>Número do carrinho</p>
-        <span class="result">12345678</span>
-      </div>
-      <div class="col-info-1">
-        <p>Número pedido CD</p>
-        <span class="result">1234</span>
-      </div>
-    </div>
-    <div class="divider"></div>
-    <div class="title">Cesta (3) produtos</div>
-    <div class="col-group item">
-      <div class="col-info-flex">
-        <div class="item-detail">
-          <div class="item-img">foto</div>
-          <div class="detail">
-            <p class="item-name">Delineador Líquido Vult Preto 3ml</p>
-            <p class="text-min item-code">Cód:940730</p>
+      <div class="divider"></div>
+      <div class="title">Cesta (3) produtos</div>
+      <div class="col-group item">
+        <div class="col-info-flex">
+          <div class="item-detail">
+            <div class="item-img">foto</div>
+            <div class="detail">
+              <p class="item-name">Delineador Líquido Vult Preto 3ml</p>
+              <p class="text-min item-code">Cód:940730</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-info-flex">
+          <div class="item-prices">
+            <div class="qtd">
+              <p class="text-min">Qtd.</p>
+              <p>(1)</p>
+            </div>
+            <div class="base">
+              <p class="text-min">Valor base</p>
+              <p>R$ 27,90</p>
+            </div>
+            <div class="convenant">
+              <p class="text-min">Convênio</p>
+              <p>R$ 22,32</p>
+            </div>
+            <div class="total">
+              <p class="text-min">Total</p>
+              <p>R$ 22,32</p>
+            </div>
           </div>
         </div>
       </div>
-      <div class="col-info-flex">
-        <div class="item-prices">
-          <div class="qtd">
-            <p class="text-min">Qtd.</p>
-            <p>(1)</p>
+      <div class="col-group item">
+        <div class="col-info-flex">
+          <div class="item-detail">
+            <div class="item-img">foto</div>
+            <div class="detail">
+              <p class="item-name">Delineador Líquido Vult Preto 3ml</p>
+              <p class="text-min item-code">Cód:940730</p>
+            </div>
           </div>
-          <div class="base">
-            <p class="text-min">Valor base</p>
-            <p>R$ 27,90</p>
-          </div>
-          <div class="convenant">
-            <p class="text-min">Convênio</p>
-            <p>R$ 22,32</p>
-          </div>
-          <div class="total">
-            <p class="text-min">Total</p>
-            <p>R$ 22,32</p>
+        </div>
+        <div class="col-info-flex">
+          <div class="item-prices">
+            <div class="qtd">
+              <p class="text-min">Qtd.</p>
+              <p>(1)</p>
+            </div>
+            <div class="base">
+              <p class="text-min">Valor base</p>
+              <p>R$ 27,90</p>
+            </div>
+            <div class="convenant">
+              <p class="text-min">Convênio</p>
+              <p>R$ 22,32</p>
+            </div>
+            <div class="total">
+              <p class="text-min">Total</p>
+              <p>R$ 22,32</p>
+            </div>
           </div>
         </div>
       </div>
-    </div>
-    <div class="col-group item">
-      <div class="col-info-flex">
-        <div class="item-detail">
-          <div class="item-img">foto</div>
-          <div class="detail">
-            <p class="item-name">Delineador Líquido Vult Preto 3ml</p>
-            <p class="text-min item-code">Cód:940730</p>
+      <div class="col-group item">
+        <div class="col-info-flex">
+          <div class="item-detail">
+            <div class="item-img">foto</div>
+            <div class="detail">
+              <p class="item-name">Delineador Líquido Vult Preto 3ml</p>
+              <p class="text-min item-code">Cód:940730</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-info-flex">
+          <div class="item-prices">
+            <div class="qtd">
+              <p class="text-min">Qtd.</p>
+              <p>(1)</p>
+            </div>
+            <div class="base">
+              <p class="text-min">Valor base</p>
+              <p>R$ 27,90</p>
+            </div>
+            <div class="convenant">
+              <p class="text-min">Convênio</p>
+              <p>R$ 22,32</p>
+            </div>
+            <div class="total">
+              <p class="text-min">Total</p>
+              <p>R$ 22,32</p>
+            </div>
           </div>
         </div>
       </div>
-      <div class="col-info-flex">
-        <div class="item-prices">
-          <div class="qtd">
-            <p class="text-min">Qtd.</p>
-            <p>(1)</p>
-          </div>
-          <div class="base">
-            <p class="text-min">Valor base</p>
-            <p>R$ 27,90</p>
-          </div>
-          <div class="convenant">
-            <p class="text-min">Convênio</p>
-            <p>R$ 22,32</p>
-          </div>
-          <div class="total">
-            <p class="text-min">Total</p>
-            <p>R$ 22,32</p>
-          </div>
+      <div class="title title-delivery">Entrega</div>
+      <div class="col-group">
+        <div class="col-info-1">
+          <p>Forma de entrega</p>
+          <span class="result">Transportadora</span>
         </div>
-      </div>
-    </div>
-    <div class="col-group item">
-      <div class="col-info-flex">
-        <div class="item-detail">
-          <div class="item-img">foto</div>
-          <div class="detail">
-            <p class="item-name">Delineador Líquido Vult Preto 3ml</p>
-            <p class="text-min item-code">Cód:940730</p>
-          </div>
+        <div class="col-info-1">
+          <p>Taxa de entrega</p>
+          <span class="result">R$ 15,99</span>
         </div>
-      </div>
-      <div class="col-info-flex">
-        <div class="item-prices">
-          <div class="qtd">
-            <p class="text-min">Qtd.</p>
-            <p>(1)</p>
-          </div>
-          <div class="base">
-            <p class="text-min">Valor base</p>
-            <p>R$ 27,90</p>
-          </div>
-          <div class="convenant">
-            <p class="text-min">Convênio</p>
-            <p>R$ 22,32</p>
-          </div>
-          <div class="total">
-            <p class="text-min">Total</p>
-            <p>R$ 22,32</p>
-          </div>
+        <div class="col-info-1">
+          <p>Código rastreio</p>
+          <span class="result">AD123456</span>
         </div>
-      </div>
-    </div>
-    <div class="title title-delivery">Entrega</div>
-    <div class="col-group">
-      <div class="col-info-1">
-        <p>Forma de entrega</p>
-        <span class="result">Transportadora</span>
-      </div>
-      <div class="col-info-1">
-        <p>Taxa de entrega</p>
-        <span class="result">R$ 15,99</span>
-      </div>
-      <div class="col-info-1">
-        <p>Código rastreio</p>
-        <span class="result">AD123456</span>
-      </div>
-      <div class="col-info-1">
-        <p>Transportadora</p>
-        <span class="result">Loggi</span>
-      </div>
-      <div class="col-info-1">
-        <p>Data de entrega</p>
-        <span class="result">09/02/2022</span>
-      </div>
-      <div class="col-info-1">
-        <p>CEP</p>
-        <span class="result">91310-000</span>
-      </div>
-      <div class="col-info-1">
-        <p>Endereço de entrega</p>
-        <span class="result">Av Protasio Alves, 999 - Apto 99 - Petropolis</span>
-        <br/>
-        <span class="result">Porto Alegre - RS</span>
+        <div class="col-info-1">
+          <p>Transportadora</p>
+          <span class="result">Loggi</span>
+        </div>
+        <div class="col-info-1">
+          <p>Data de entrega</p>
+          <span class="result">09/02/2022</span>
+        </div>
+        <div class="col-info-1">
+          <p>CEP</p>
+          <span class="result">91310-000</span>
+        </div>
+        <div class="col-info-1">
+          <p>Endereço de entrega</p>
+          <span class="result">Av Protasio Alves, 999 - Apto 99 - Petropolis</span>
+          <br/>
+          <span class="result">Porto Alegre - RS</span>
+        </div>
       </div>
     </div>
   </div>
-</div>
+</form>
